@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example test suite" duration-ms="62" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+    <groups>
+      <group name="group2">
+        <method signature="Example.cancelarCuenta()[pri:2, instance:com.academy.web.tests.Example@1f28c152]" name="cancelarCuenta" class="com.academy.web.tests.Example"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="Example.crearCuenta()[pri:1, instance:com.academy.web.tests.Example@66480dd7]" name="crearCuenta" class="com.academy.web.tests.Example"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="example run" duration-ms="29" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+      <class name="com.academy.web.tests.Example">
+        <test-method status="PASS" signature="iniciarSesion()[pri:0, instance:com.academy.web.tests.Example@66480dd7]" name="iniciarSesion" is-config="true" duration-ms="1" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarSesion -->
+        <test-method status="PASS" signature="crearCuenta()[pri:1, instance:com.academy.web.tests.Example@66480dd7]" name="crearCuenta" duration-ms="5" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crearCuenta -->
+        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Example@66480dd7]" name="cerrarSesion" is-config="true" duration-ms="1" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarSesion -->
+      </class> <!-- com.academy.web.tests.Example -->
+    </test> <!-- example run -->
+    <test name="example run2" duration-ms="6" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+      <class name="com.academy.web.tests.Example">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.academy.web.tests.Example@66480dd7]" name="before" is-config="true" duration-ms="11" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="iniciarSesion()[pri:0, instance:com.academy.web.tests.Example@1f28c152]" name="iniciarSesion" is-config="true" duration-ms="0" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciarSesion -->
+        <test-method status="PASS" signature="verificarCuenta()[pri:0, instance:com.academy.web.tests.Example@1f28c152]" name="verificarCuenta" is-config="true" duration-ms="1" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificarCuenta -->
+        <test-method status="PASS" signature="cancelarCuenta()[pri:2, instance:com.academy.web.tests.Example@1f28c152]" name="cancelarCuenta" duration-ms="1" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelarCuenta -->
+        <test-method status="PASS" signature="cerrarSesion()[pri:0, instance:com.academy.web.tests.Example@1f28c152]" name="cerrarSesion" is-config="true" duration-ms="1" started-at="2020-03-28T03:05:15Z" finished-at="2020-03-28T03:05:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarSesion -->
+      </class> <!-- com.academy.web.tests.Example -->
+    </test> <!-- example run2 -->
+  </suite> <!-- example test suite -->
+</testng-results>
